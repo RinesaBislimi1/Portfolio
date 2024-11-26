@@ -1,0 +1,244 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 2px 10px rgba(134, 7, 213, 0.1);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
+}
+
+body {
+    background-color: #f0f0f0; 
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 60px; 
+}
+.header {
+    padding: 5px;
+    box-shadow: 0 2px 10px rgba(213, 7, 7, 0.1);
+}
+
+.menu li:hover {
+    background-color: rgba(146, 17, 153, 0.1); 
+    border-radius: 5px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.menu {
+    display: inline;
+}
+.menu li,.menu a{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #4B0082;
+}
+.menu li:hover{
+    color: rgb(146, 17, 153);
+    font-size: 18px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+   background-color: white;
+}
+
+
+.buttons{
+    display: flex;
+}
+
+.second{
+    background-image: url("../assets/imgbck1.png");
+    width: 600px;
+    height:650px;
+    animation: moveBackground 10s linear infinite;
+}
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.profile-img {
+    height: 340px;
+    width: 340px;
+    justify-content: center;
+    border-radius: 100%;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+    text-align: left;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 50px;
+    color: #4B0082; 
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+}
+
+.name:hover {
+    transform: scale(1.05);
+}
+
+
+.job {
+    font-weight: 500;
+    font-size: 28px;
+    color: #6A5ACD; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.first h2, .first h3 {
+    margin: 1px 0; 
+}
+
+
+.social-icons a {
+    color: #4B0082;
+    font-size: 32px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #6A5ACD; 
+}
+
+
+
+.hire-btn {
+    background-color: #6c3f8a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.hire-btn:hover {
+    background-color: #6A5ACD;
+}
+
+
+.download-btn {
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 15px;
+}
+.download-btn:hover {
+    background-color: #6A5ACD;
+}
+
+.social-icons a {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    background-color: #6A5ACD; 
+    color: white; 
+}
+@media (max-width: 768px) {
+    .first-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .second {
+        width: 80%; 
+        height: auto; 
+    }
+
+    .profile-img {
+        height: 250px; 
+        width: 250px;
+    }
+}
+
+.text {
+    font-size: 18px;
+    font-weight:500;
+    font-family:cursive;
+}
+
+.navbar-nav{
+   justify-content:right;
+   text-align: right;
+   margin-left: 250px;
+} 
+
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: 600; /* Adjust font weight */
+    color: #000; /* Black text */
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #8f1f95; /* Add blue hover color */
+  }
+  
+  .navbar-toggler-icon {
+    color: #000; /* Toggler color for better visibility */
+  }
+  
+  /* Remove Navbar Background */
+  .navbar {
+    background: none;
+    border: none;
+  }
+  
+  /* Right Alignment of Second List */
+  .navbar-nav.ms-auto .nav-item {
+    margin-left: 1rem;
+  }
+  

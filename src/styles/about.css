@@ -1,0 +1,105 @@
+.about {
+    padding: 40px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section {
+    margin-bottom: 50px;
+  }
+  
+  .about-title {
+    font-size: 28px;
+    color: #4b2a76;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .about-txt {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-list {
+    margin-top: 30px;
+  }
+  
+  .list-item {
+    margin-bottom: 40px;
+  }
+  
+  .list-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4b2a76;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #6a5acd;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .list-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-details:hover {
+    background-color: #f0f0ff;
+  }
+  
+  .degree {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .place, .year {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .year {
+    font-weight: 600;
+    color: #c41b13;
+  }
+  
+  .training1 {
+    margin-bottom: 20px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .about {
+      padding: 20px;
+    }
+  
+    .about-title {
+      font-size: 24px;
+    }
+  
+    .about-txt {
+      font-size: 16px;
+    }
+  
+    .list-text {
+      font-size: 20px;
+    }
+  
+    .degree {
+      font-size: 18px;
+    }
+  
+    .place, .year {
+      font-size: 14px;
+    }
+  }
+  
+
+  
