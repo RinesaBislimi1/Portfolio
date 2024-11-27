@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.55454894.css",
+    "main.js": "/Portfolio/static/js/main.650251df.js",
+    "static/js/453.5e560239.chunk.js": "/Portfolio/static/js/453.5e560239.chunk.js",
+    "static/media/RinaDecor.png": "/Portfolio/static/media/RinaDecor.b758f2a08cd5dd28691a.png",
+    "static/media/furniture.png": "/Portfolio/static/media/furniture.0ebe5a5d6dc4403e24a5.png",
+    "static/media/jobportal.png": "/Portfolio/static/media/jobportal.1fbca0dae320aff61184.png",
+    "static/media/foodiefast.png": "/Portfolio/static/media/foodiefast.41da6ca663a8a191fbcc.png",
+    "static/media/img.png": "/Portfolio/static/media/img.35b8574b34c97e035d3a.png",
+    "static/media/imgbck1.png": "/Portfolio/static/media/imgbck1.5b8a39a2c2b5e69c444a.png",
+    "static/media/img.jpg": "/Portfolio/static/media/img.6f18445063227672d6db.jpg",
+    "static/media/CodeChecker.png": "/Portfolio/static/media/CodeChecker.1864023cfd2bfe0c5417.png",
+    "index.html": "/Portfolio/index.html",
+    "main.55454894.css.map": "/Portfolio/static/css/main.55454894.css.map",
+    "main.650251df.js.map": "/Portfolio/static/js/main.650251df.js.map",
+    "453.5e560239.chunk.js.map": "/Portfolio/static/js/453.5e560239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55454894.css",
+    "static/js/main.650251df.js"
+  ]
+}
