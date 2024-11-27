@@ -44,9 +44,10 @@ function Home() {
             <a href="#contact" className="hire-btn">
             Hire Me
             </a>
-            <a href={`${process.env.PUBLIC_URL}/RinesaBislimi-.pdf`} download>
+            <a href="/Portfolio/RinesaBislimi-.pdf" download>
     <button className="download-btn">Download CV</button>
 </a>
+
 
         </div>
           
