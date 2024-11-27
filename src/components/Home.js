@@ -45,7 +45,9 @@ function Home() {
             Hire Me
             </a>
             <a href="/RinesaBislimi-.pdf" download>
-                <button className="download-btn">Download CV</button>
+                <button className="download-btn"
+                 onclick="window.open('../../public/RinesaBislimi-.pdf')"
+                 >Download CV</button>
             </a>
         </div>
           
